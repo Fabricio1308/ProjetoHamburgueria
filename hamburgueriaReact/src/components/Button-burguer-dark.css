@@ -1,0 +1,19 @@
+.btn-dark-burguer{
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-dark-burguer:focus{
+    outline: none;
+
+}
+
+

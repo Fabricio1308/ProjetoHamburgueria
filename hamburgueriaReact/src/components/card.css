@@ -1,0 +1,8 @@
+.align-card{
+    margin-top: 5rem;
+}
+
+.card-style{
+    box-shadow: 2px 2px 4px #00000073;
+    border-radius: 1rem !important;
+}

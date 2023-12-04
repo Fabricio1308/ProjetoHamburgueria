@@ -1,0 +1,59 @@
+  
+
+.page-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container-burguer-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 40rem;
+    height: 25rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 10rem;
+    box-shadow: 2px 2px 4px #00000073;
+    margin-top: 7rem;
+}
+
+#floatingInputCustom {
+    width: 15rem !important;
+    border: 2px black solid !important;
+    border-radius: 3rem !important;
+}
+
+#floatingInputCustom:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.align-btn {
+    margin-top: 3rem;
+}
+
+.align-h1 {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+    .container-burguer-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        width: 20rem;
+        height: 25rem;
+        border-radius: 3rem;
+        text-align: center;
+        /* Alinha o conteúdo dentro do container */
+        padding: 10rem;
+        margin-top: 5rem;
+    }
+}
